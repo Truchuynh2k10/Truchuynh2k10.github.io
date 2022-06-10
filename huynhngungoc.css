@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 60px;
+}
+
+.header ul{
+	list-style-type: none;
+}
+.header li{
+	display: inline;
+	padding: 0 20px;
+}
+.right{
+	display: flex;
+}
+.header{
+	margin-right: 20px;
+}
+.maucam{
+	border-radius: 6px;
+	padding: 9px 19px;
+	border: none;
+	background-color: #FE5000;
+	color: white;
+}
+.banner{
+	height: 700px;
+	background-color: #1F0A00;
+	padding: 85px 135px;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+.banner img{
+	height: 100%;
+}
+.banner h1{
+	font-size: 70px;
+}
+.sec3{
+	text-align: center
+}
+.motdong{
+	
+	display: flex;
+    text-align: center;
+	align-items: center;
+	}
+.car{
+	background-color: rgba(235,234,234,1.00);
+	margin: 30px;
+	padding: 20px;
+}
+.sec4{
+	text-align: center;
+	margin: 20px;
+}
+.dong{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.tam{
+	background-color:rgba(242,217,217,1.00);
+	border-radius: 14px;
+	width: 25%;
+	padding: 25px;
+	text-align: left;
+	margin: 0 20px;
+}
+.tam img{
+	width: 100%;
+}
+.chung{
+	display: flex;
+	justify-content: space-between;
+}
+input:hover{
+	background-color: rgba(134,200,154,1.00)
+
+}
